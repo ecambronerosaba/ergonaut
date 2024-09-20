@@ -12,7 +12,7 @@ layers:
   - Y
   - ;
   - Esc
-  - {t: '[', h: BT NXT}
+  - BT NXT
   - A
   - R
   - S
