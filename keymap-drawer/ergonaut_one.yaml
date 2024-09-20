@@ -1,47 +1,47 @@
 layers:
   default:
-  - {t: ']', h: Gui}
+  - ↹
   - Q
   - W
-  - E
-  - R
-  - T
-  - Y
+  - F
+  - P
+  - B
+  - J
+  - L
   - U
+  - Y
+  - ;
+  - Esc
+  - {t: '[', h: BT NXT}
+  - A
+  - R
+  - S
+  - T
+  - G
+  - M
+  - N
+  - E
   - I
   - O
-  - P
-  - '['
-  - {t: '`', h: Ctrl}
-  - A
-  - S
-  - D
-  - F
-  - G
-  - H
-  - J
-  - K
-  - L
-  - ;
-  - {t: '''', h: Ctrl}
-  - {t: '-', h: Alt}
+  - ''''
+  - LEFT SHIFT
   - Z
-  - X
-  - C
+  - {t: X, h: lower}
+  - {t: C, h: num-pad}
+  - {t: D, h: adjust}
   - V
-  - B
-  - N
-  - M
-  - ','
-  - .
+  - K
+  - {t: H, h: adjust}
+  - {t: ',', h: num-pad}
+  - {t: ., h: lower}
   - /
-  - {t: \, h: Alt}
-  - {t: ↹, h: raise}
-  - {t: ␣, h: Shift}
-  - {t: ⏎, h: lower}
-  - {t: Esc, h: lower}
-  - {t: ⌫, h: Shift}
-  - {t: ⌦, h: raise}
+  - RIGHT ALT
+  - {t: gaming, h: toggle}
+  - {t: ENTER, h: LEFT ALT}
+  - LEFT GUI
+  - BACKSPACE
+  - ␣
+  - RIGHT CONTROL
   lower:
   - {t: F1, h: Gui}
   - F2
@@ -51,7 +51,7 @@ layers:
   - F6
   - F7
   - F8
-  - F9
+  - UP ARROW
   - F10
   - F11
   - F12
@@ -62,72 +62,72 @@ layers:
   - $
   - '%'
   - ^
-  - '&'
-  - '*'
-  - (
+  - LEFT ARROW
+  - ↓
+  - →
   - )
   - {t: '-', h: Ctrl}
   - {t: '=', h: Alt}
   - '1'
-  - '2'
+  - {t: '2', type: held}
   - '3'
   - '4'
   - '5'
   - '6'
   - '7'
-  - '8'
+  - F9
   - '9'
   - '0'
   - Alt
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  raise:
-  - {t: KP NUM, h: Gui}
-  - KP SLASH
-  - KP 7
-  - KP 8
-  - KP 9
-  - KP MINUS
-  - Vol Up
-  - Home
-  - Print Scrn
-  - Page Up
-  - SLCK
+  - {t: ▽, type: trans}
+  num-pad:
+  - '`'
+  - ⌦
+  - A
+  - A
+  - A
+  - A
+  - /
+  - '7'
+  - '8'
+  - '9'
+  - '-'
   - CLCK
   - {t: '=', h: Ctrl}
-  - KP MULTIPLY
-  - KP 4
-  - KP 5
-  - KP 6
-  - KP PLUS
-  - MUTE
-  - ←
-  - ↑
-  - →
-  - Insert
-  - {t: APP, h: Ctrl}
+  - '-'
+  - '='
+  - '['
+  - ']'
+  - Sft+ !
+  - '1'
+  - '4'
+  - '5'
+  - '6'
+  - +
+  - '='
   - Alt
-  - KP 0
-  - KP 1
-  - KP 2
-  - KP 3
-  - KP DOT
-  - Vol Down
-  - End
-  - ↓
-  - Page Down
-  - Pause Break
-  - Alt
-  - {type: held}
+  - Gui+ Z
+  - Gui+ X
+  - {t: Gui+ C, type: held}
+  - Gui+ V
+  - Gui+ S
+  - ','
+  - '1'
+  - '2'
+  - '3'
+  - .
+  - ENTER
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - '0'
   adjust:
   - Boot
   - ''
@@ -148,26 +148,76 @@ layers:
   - BT 4
   - BT 5
   - BT 5
-  - BT 4
-  - BT 3
-  - BT 2
-  - BT 1
-  - BT CLR
-  - Reset
+  - Sft+ (
+  - Sft+ )
+  - '['
+  - ']'
+  - {t: ▽, type: trans}
   - ''
   - ''
   - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - Reset
-  - {type: held}
   - ''
   - {type: held}
   - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - Reset
+  - {t: ▽, type: trans}
+  - ''
+  - {t: ▽, type: trans}
+  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  gaming:
+  - ESCAPE
+  - ''
+  - Q
+  - W
+  - I
+  - P
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - A
+  - S
+  - D
+  - H
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Alt
+  - '0'
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: default, h: toggle}
+  - {t: ▽, type: trans}
+  - ␣
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+combos:
+- p: [38, 39, 16]
+  k: Ctl+Alt+ ←
+- p: [38, 39, 19]
+  k: Alt+Ctl+ →
+- p: [12, 23]
+  k: '&pwd'
