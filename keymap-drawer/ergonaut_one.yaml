@@ -173,7 +173,7 @@ layers:
   - {t: ▽, type: trans}
   gaming:
   - ESCAPE
-  - ''
+  - '1'
   - Q
   - W
   - I
@@ -185,7 +185,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ''
-  - ''
+  - F
   - A
   - S
   - D
@@ -221,3 +221,5 @@ combos:
   k: Alt+Ctl+ →
 - p: [12, 23]
   k: '&pwd'
+- p: [38, 16, 39, 19]
+  k: Alt+Ctl+ ENTER

@@ -31,6 +31,11 @@
             bindings = <&pwd>;
             key-positions = <12 23>;
         };
+
+        Full {
+            bindings = <&kp LA(LC(ENTER))>;
+            key-positions = <38 16 39 19>;
+        };
     };
 
     macros {
@@ -83,10 +88,10 @@
 
         gaming {
             bindings = <
-&kp ESCAPE  &none   &kp Q   &kp W   &kp I   &kp P      &none   &none   &trans  &trans  &trans  &trans
-&none       &none   &kp A   &kp S   &kp D   &kp H      &trans  &trans  &trans  &trans  &trans  &trans
-&kp LALT    &kp N0  &kp N1  &kp N2  &kp N3  &kp N4     &trans  &trans  &trans  &trans  &trans  &trans
-                            &to 0   &trans  &kp SPACE  &trans  &trans  &trans
+&kp ESCAPE  &kp NUMBER_1  &kp Q   &kp W   &kp I   &kp P      &none   &none   &trans  &trans  &trans  &trans
+&none       &kp F         &kp A   &kp S   &kp D   &kp H      &trans  &trans  &trans  &trans  &trans  &trans
+&kp LALT    &kp N0        &kp N1  &kp N2  &kp N3  &kp N4     &trans  &trans  &trans  &trans  &trans  &trans
+                                  &to 0   &trans  &kp SPACE  &trans  &trans  &trans
             >;
         };
     };
