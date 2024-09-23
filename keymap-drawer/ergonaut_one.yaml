@@ -67,7 +67,7 @@ layers:
   - →
   - )
   - {t: '-', h: Ctrl}
-  - {t: '=', h: Alt}
+  - {t: ▽, type: trans}
   - '1'
   - {t: '2', type: held}
   - '3'
@@ -110,7 +110,7 @@ layers:
   - '6'
   - +
   - '='
-  - Alt
+  - {t: ▽, type: trans}
   - Gui+ Z
   - Gui+ X
   - {t: Gui+ C, type: held}
