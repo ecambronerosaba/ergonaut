@@ -35,7 +35,7 @@ layers:
   - {t: ',', h: num-pad}
   - {t: ., h: lower}
   - /
-  - RIGHT ALT
+  - {t: RIGHT ALT, h: RIGHT SHIFT}
   - {t: gaming, h: toggle}
   - {t: ENTER, h: LEFT ALT}
   - LEFT GUI
