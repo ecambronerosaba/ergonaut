@@ -79,10 +79,10 @@
 
         adjust_layer {
             bindings = <
-&bootloader  &none         &none         &none         &none         &none         &none         &none         &none         &none     &none     &bootloader
-&bt BT_CLR   &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &bt BT_SEL 4  &kp LS(LPAR)  &kp LS(RPAR)  &kp LBKT  &kp RBKT  &trans
-&none        &none         &none         &none         &none         &none         &none         &none         &none         &none     &none     &sys_reset
-                                         &trans        &none         &trans        &none         &trans        &trans
+&bootloader  &none         &none         &none         &none         &kp BACKSLASH  &none         &none         &none         &none     &none     &bootloader
+&bt BT_CLR   &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4   &bt BT_SEL 4  &kp LS(LPAR)  &kp LS(RPAR)  &kp LBKT  &kp RBKT  &trans
+&none        &none         &none         &none         &none         &none          &none         &none         &none         &none     &none     &sys_reset
+                                         &trans        &none         &trans         &none         &trans        &trans
             >;
         };
 
