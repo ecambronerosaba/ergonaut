@@ -103,7 +103,7 @@ layers:
   - '='
   - '['
   - ']'
-  - Sft+ !
+  - Sft+!
   - '1'
   - '4'
   - '5'
@@ -111,11 +111,11 @@ layers:
   - +
   - '='
   - LEFT SHIFT
-  - Gui+ Z
-  - Gui+ X
-  - {t: Gui+ C, type: held}
-  - Gui+ V
-  - Gui+ S
+  - Gui+Z
+  - Gui+X
+  - {t: Gui+C, type: held}
+  - Gui+V
+  - Gui+S
   - ','
   - '1'
   - '2'
@@ -148,8 +148,8 @@ layers:
   - BT 4
   - BT 5
   - BT 5
-  - Sft+ (
-  - Sft+ )
+  - Sft+(
+  - Sft+)
   - '['
   - ']'
   - {t: ▽, type: trans}
@@ -216,10 +216,12 @@ layers:
   - {t: ▽, type: trans}
 combos:
 - p: [38, 39, 16]
-  k: Ctl+Alt+ ←
+  k: Ctl+Alt+←
 - p: [38, 39, 19]
-  k: Alt+Ctl+ →
+  k: Alt+Ctl+→
 - p: [12, 23]
   k: '&pwd'
 - p: [38, 16, 39, 19]
-  k: Alt+Ctl+ ENTER
+  k: Alt+Ctl+ENTER
+- p: [0, 11]
+  k: {t: default, h: toggle}
