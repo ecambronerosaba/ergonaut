@@ -226,3 +226,5 @@ combos:
   k: Alt+Ctl+ENTER
 - p: [0, 11]
   k: {t: default, h: toggle}
+- p: [24, 23]
+  k: Boot
