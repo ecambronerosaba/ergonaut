@@ -1,3 +1,4 @@
+layout: {zmk_keyboard: ergonaut_one}
 layers:
   default:
   - ↹
@@ -36,7 +37,7 @@ layers:
   - {t: ., h: lower}
   - /
   - {t: RIGHT ALT, h: RIGHT SHIFT}
-  - {t: gaming, h: toggle}
+  - {t: lower, h: toggle}
   - {t: ENTER, h: LEFT ALT}
   - LEFT GUI
   - BACKSPACE
@@ -69,7 +70,7 @@ layers:
   - {t: '-', h: Ctrl}
   - LEFT SHIFT
   - '1'
-  - {t: '2', type: held}
+  - {t: C, type: held}
   - '3'
   - '4'
   - '5'
@@ -80,7 +81,7 @@ layers:
   - '0'
   - Alt
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ␣
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
